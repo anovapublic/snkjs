@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html manifiest="/cache.manifiest">
+<head>
+<title>La serpiente</title>
+<script type="text/javascript"
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport"
+	content="width=device-width, height=device-height, user-scalable=no" />
+<meta charset="utf-8" />
+</head>
+<body>
+	<canvas id="canvas" width=128 height=128
+		style="width: 256px; height: 256px; border: 8px solid black"></canvas>
+	<script type="text/javascript" src="${snake.js}"></script>
+	<script type="text/javascript" src="js/game.js"></script>
+	<script type="text/javascript">
+		SNAKE.game().init().start()
+	</script>
+</body>
+</html>
